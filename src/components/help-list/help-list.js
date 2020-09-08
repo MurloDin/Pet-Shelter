@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./fourth_section.css";
-import HelpList from "./help-list";
+import HelpListItem from "./help-list-item";
 
 const first_column = [
     {
@@ -61,10 +61,10 @@ const FourthSection = () => {
                 <div className="main-title fourth-section_title-position">Than you can help<br /> our shelter</div>
                 <div className="row">
                     <div className="col-md-10 col-6 offset-md-1">
-                        <HelpList items={first_column} />
+                        <HelpListItem items={first_column} />
                     </div>
                     <div className="col-md-8 offset-md-2 col-6 second-help-list">
-                        <HelpList items={second_column} />
+                        <HelpListItem items={second_column} />
                     </div>
                 </div>
             </div>
