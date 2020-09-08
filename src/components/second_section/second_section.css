@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 576px) {
-    .second-section .my-container{
+    .second-section .container{
         padding: 0;
     }
 }

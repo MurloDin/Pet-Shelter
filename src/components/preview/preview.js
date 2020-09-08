@@ -1,28 +1,28 @@
 import React from "react";
-import './first_section.css';
+import './preview.css';
 import Header from "./header";
 
 
-const FirstSection = () => {
+const Preview = () => {
     return (
-        <section className="first-section">
+        <section className="preview">
             <Header />
-            <div className="my-container">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-5">
-                        <div className="first-section__title">
+                        <div className="preview__title">
                             Not only people
                             need a house
                         </div>
-                        <div className="first-section__subtitle">
+                        <div className="preview__subtitle">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida
                             est in porttitor  porttitor. Duis sodales elementum ipsum, vehicula
                             condimentum erat fringilla et.
                         </div>
-                        <button className="main-btn first-section__btn">Make a friend</button>
+                        <button className="main-btn preview__btn">Make a friend</button>
                     </div>
                     <div className="col-6 offset-1">
-                        <img src="/images/main_dog.png" alt="Dog" className="first-section__img"/>
+                        <img src="/images/main_dog.png" alt="Dog" className="preview__img"/>
                     </div>
                 </div>
             </div>
@@ -30,4 +30,4 @@ const FirstSection = () => {
     );
 };
 
-export default FirstSection;
+export default Preview;

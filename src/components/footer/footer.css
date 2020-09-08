@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 1200px) {
-    .my-footer .my-container {
+    .my-footer .container {
         padding-right: 35px;
         padding-left: 35px;
     }

@@ -32,7 +32,7 @@ const second_data = [
 const Footer = () => {
     return (
         <footer className="my-footer" id="my-footer">
-            <div className="my-container">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-5">
                         <FooterItem title="For questions and suggestions"

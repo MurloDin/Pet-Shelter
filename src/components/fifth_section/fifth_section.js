@@ -6,7 +6,7 @@ import "./fifth_section.css";
 const FifthSection = () => {
     return (
         <section className="fifth-section" id="fifth-section">
-            <div className="my-container">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <div className="fifth-section__img-boundary">

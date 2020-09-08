@@ -1,5 +1,6 @@
 import React from "react";
-import FirstSection from "../first_section";
+
+import Preview from "../preview";
 import SecondSection from "../second_section";
 import ThirdSection from "../third_section";
 import FourthSection from "../fourth_section";
@@ -10,7 +11,7 @@ import Footer from "../footer";
 const App = () => {
     return (
         <>
-            <FirstSection />
+            <Preview />
             <SecondSection />
             <ThirdSection />
             <FourthSection />

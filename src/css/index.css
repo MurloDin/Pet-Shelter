@@ -1,6 +1,6 @@
 @import url("./fonts.css");
 
-.my-container {
+.container {
     max-width: 1169px;
     position: relative;
     margin-left: auto;

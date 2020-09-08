@@ -57,7 +57,7 @@ const second_column = [
 const FourthSection = () => {
     return (
         <section className="fourth-section" id="fourth-section">
-            <div className="my-container">
+            <div className="container">
                 <div className="main-title fourth-section_title-position">Than you can help<br /> our shelter</div>
                 <div className="row">
                     <div className="col-md-10 col-6 offset-md-1">

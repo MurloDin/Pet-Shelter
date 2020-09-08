@@ -5,7 +5,7 @@ import "./second_section.css";
 const SecondSection = () => {
     return (
         <section className="second-section" id="second-section">
-            <div className="my-container">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-5 offset-md-1 col-sm-12">
                         <div className="img-block">

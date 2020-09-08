@@ -45,7 +45,7 @@ const PetsSlider = ({pets, handleOpenModal, handleCloseModal, showModal, pet}) =
 
     return (
 
-        <div className="my-container">
+        <div className="container">
             <Slider {...settings}>
                 {
                     pets

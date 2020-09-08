@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header>
             <nav className="navigation">
-                <div className="my-container">
+                <div className="container">
                     <div className="row">
                         <div className="col-xl-2 col-lg-3">
                             <h1 className="header-title">Cozy House</h1>
