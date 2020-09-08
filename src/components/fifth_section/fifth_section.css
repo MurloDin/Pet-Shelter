@@ -1,0 +1,126 @@
+.fifth-section {
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+.fifth-section_title-position {
+    margin-top: 65px;
+    line-height: 45px;
+}
+
+.fifth-section__subtitle {
+    margin-top: 17px;
+    color: #545454;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+}
+
+.credit-card {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 319px;
+    height: 47px;
+    border-radius: 9px;
+    background-color: #f1cdb3;
+}
+
+.credit-card__title {
+    display: inline-block;
+    color: #292929;
+    font-family: "Times New Roman PSMT";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.fifth-section__img{
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.fifth-section__img-boundary {
+    height: 434px;
+    display: flex;
+    align-items: center;
+}
+
+.fifth-section__desc {
+    margin-top: 30px;
+    width: 351px;
+    color: #b2b2b2;
+    font-family: Georgia,  Italic;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+@media (max-width: 1200px) {
+    .fifth-section__img-boundary{
+      margin: 0 -25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .fifth-section__img-boundary {
+        margin-left: -130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fifth-section__img-boundary {
+        margin-top: 0;
+        margin-left: 0px;
+    }
+    .fifth-section_title-position {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .fifth-section__subtitle {
+        text-align: center;
+    }
+    .credit-card {
+        margin: 10px auto;
+    }
+    .fifth-section__desc {
+        text-align: center;
+        width: auto;
+        margin: 50px auto;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 556px) {
+    .credit-card {
+        width: 290px;
+        margin: 10px auto;
+    }
+    .fifth-section__desc {
+        text-align: center;
+        width: auto;
+        margin: 50px auto;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .fifth-section_title-position {
+        margin-top: 20px;
+    }
+    .fifth-section__img{
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .fifth-section__img-boundary {
+        margin-top: 30px;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+}
+

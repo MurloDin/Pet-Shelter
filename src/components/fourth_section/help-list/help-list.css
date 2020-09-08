@@ -1,0 +1,61 @@
+.fourth-section__content-container {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-section__content {
+    text-align: center;
+}
+
+.fourth-section__title {
+    margin-top: 27px;
+    width: 166px;
+    color: #545454;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fourth-section__img-boundary {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1200px) {
+    .fourth-section__title{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 991px) {
+    .fourth-section__title {
+        width: auto;
+        margin-top: 17px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .second-help-list {
+        margin-top: 40px;
+    }
+    .fourth-section__content{
+        margin-top: 30px;
+    }
+    .fourth-section__title {
+        margin-top: 17px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fourth-section__content-container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
